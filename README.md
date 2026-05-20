@@ -105,7 +105,7 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 - 📜 **CompTIA Security+** — In Progress
 - ☁️ **AWS Certified Cloud Practitioner** — In Progress
 - 🏐 **Filipino-American Nation Select Team** (2025) — competing internationally
-- 🇺🇸 U.S. Citizen
+- U.S. Citizen
 
 ---
 
