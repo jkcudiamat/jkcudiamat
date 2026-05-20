@@ -64,6 +64,17 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+
+**DevSecOps & CI/CD**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1A77D2?style=flat-square&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov-7B42BC?style=flat-square&logoColor=white)
+![Falco](https://img.shields.io/badge/Falco-00ADEF?style=flat-square&logoColor=white)
+![Bandit](https://img.shields.io/badge/Bandit-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **Languages & Development**
 
@@ -79,6 +90,7 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 
 | Project | Description | Stack |
 |---|---|---|
+| 🔒 **[DevSecOps CI/CD Pipeline](https://github.com/jkcudiamat/devsecops-local)** | 4-stage GitHub Actions pipeline with automated security gates. Checkov IaC scanning, Bandit SAST, Trivy CVE scanning, and offline Kubernetes manifest validation. Hardened Flask app on Minikube with Falco eBPF runtime threat detection — firing CRITICAL alerts on shell spawns and privilege escalation. | GitHub Actions · Docker · Kubernetes · Trivy · Checkov · Falco |
 | 🛡️ **Azure Mini SOC** | Cloud-based SIEM with real-time log ingestion, alert rules & automated workflows. Cut incident response time by 40%. | Azure Sentinel · Log Analytics |
 | 🔐 **Zero Trust VPN** | WireGuard VPN on AWS with MFA enforcement and network access controls following zero trust principles. | AWS · WireGuard · MFA |
 | 🔍 **Offensive Security Lab** | Vulnerability testing on Linux systems. Identified and documented 20+ vulnerabilities with remediation strategies. | Nmap · Wireshark · Security Onion |
