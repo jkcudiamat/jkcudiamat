@@ -52,7 +52,7 @@ Currently upgrading my existing security projects with ML layers. Real datasets,
 
 | Project | What It Does | Stack | Status |
 |---------|-------------|-------|--------|
-| 🤖 **[AI Threat Detection SOC](#)** | Swapped out the static alert rules in my Azure SOC for a Random Forest classifier trained on 225K+ real network flows. Predictions hit a REST API and feed directly into Azure Sentinel. | Python · scikit-learn · Flask · Azure Sentinel | 🔨 In Progress |
+| 🤖 **[AI Threat Detection SOC](https://github.com/jkcudiamat/ai-threat-detection-soc)** | Swapped out the static alert rules in my Azure SOC for a Random Forest classifier trained on 225K+ real network flows. Predictions hit a REST API and feed directly into Azure Sentinel. | Python · scikit-learn · Flask · Azure Sentinel | ✅ Complete |
 | 🛡️ **[ML Intrusion Detection System](#)** | Running three models against each other on NSL-KDD — Logistic Regression, Random Forest, Gradient Boosting. Best F1 score wins deployment. | Python · scikit-learn · NSL-KDD | 📅 Upcoming |
 | 📧 **[NLP Phishing Classifier](#)** | TF-IDF and BERT pipeline for classifying phishing emails, wired into my existing Java Email App as a Python microservice. | Python · HuggingFace · TF-IDF · Flask | 📅 Upcoming |
 | ⚙️ **[DevSecOps AI Security Gate](#)** | Added Garak LLM scanning to my CI/CD pipeline. If the model fails a prompt injection probe, the deployment blocks. | Garak · GitHub Actions · Docker | 📅 Upcoming |
