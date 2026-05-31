@@ -25,7 +25,7 @@
 
 # Jacob Cudiamat
 
-**I build security systems. Now I'm making them smarter with ML.**
+<!-- **I build security systems. Now I'm making them smarter with ML.** -->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jkcudiamat-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jacob-cudiamat)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jkcudiamat.github.io-5ee7c0?style=flat-square&logo=github&logoColor=black)](https://jkcudiamat.github.io)
