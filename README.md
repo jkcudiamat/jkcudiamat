@@ -2,31 +2,32 @@
      Jacob Cudiamat — GitHub Profile README
      
      HOW TO USE:
-     1. Create a repo named exactly: jkcudiamat  (same as your username)
-     2. Add this file as README.md in that repo
-     3. It will appear automatically on your GitHub profile page
+     1. Go to github.com/jkcudiamat/jkcudiamat
+     2. Click the pencil icon to edit README.md
+     3. Select all, delete, paste this entire file
+     4. Click "Commit changes"
      
      EASY EDITS:
-     - Update the badge list below to add/remove skills
-     - Swap the stats card theme by changing ?theme=... in the URL
-       Options: dark, radical, merko, gruvbox, tokyonight, onedark
+     - As you complete AI projects, replace (#) with real repo URLs
+     - Update status emojis: 🔨 In Progress → ✅ Complete
      - Update the "Currently..." line when you earn your certs
-     - Add a project link in the Featured Work section
+     - Swap stats card theme: change ?theme=tokyonight to
+       dark, radical, merko, gruvbox, onedark
      ============================================================ -->
 
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════╗
-║   Cybersecurity Engineer  ·  Los Angeles, CA      ║
-║   M.S. Cybersecurity Engineering — USD  (4.0)     ║
-║   B.S. Computer Science — Cal Lutheran  (3.7)     ║
-╚═══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║   Cybersecurity Engineer  ·  AI/ML Engineer              ║
+║   M.S. Cybersecurity Engineering — USD  (4.0)            ║
+║   B.S. Computer Science — Cal Lutheran  (3.7)            ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
 # Jacob Cudiamat
 
-**Building secure systems · Cloud SOC · Zero Trust · Offensive Security**
+**Building AI-powered security systems · ML Threat Detection · DevSecOps · Zero Trust**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jkcudiamat-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jacob-cudiamat)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jkcudiamat.github.io-5ee7c0?style=flat-square&logo=github&logoColor=black)](https://jkcudiamat.github.io)
@@ -39,15 +40,41 @@
 
 ## About
 
-Cybersecurity engineer focused on threat detection, cloud infrastructure security, and zero-trust architecture. I approach security from both the offensive and defensive sides — from vulnerability assessments to building SOC pipelines that actually reduce response time.
+Cybersecurity engineer transitioning existing security infrastructure into AI-powered systems. I work across both disciplines — building ML models that replace static alert rules with dynamic threat classification, and securing AI systems against adversarial attacks, prompt injection, and LLM vulnerabilities.
 
-Previously slashed critical vulnerabilities by **60%** at Torero Consulting Group and shipped a NIST SP 800-171 aligned security plan. Built a cloud SOC on Azure that cut incident response time by **40%**. Supported **200+** users across enterprise environments.
+Previously slashed critical vulnerabilities by **60%** at Torero Consulting Group and delivered a NIST SP 800-171 aligned security plan. Built a cloud SOC on Azure that cut incident response time by **40%**. Currently adding machine learning layers to every project in my security portfolio.
 
 Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practitioner**.
 
 ---
 
+## 🔨 Currently Building — AI/ML Portfolio Sprint
+
+Transitioning existing security infrastructure into AI-powered systems.
+
+| Project | What It Does | Stack | Status |
+|---------|-------------|-------|--------|
+| 🤖 **[AI Threat Detection SOC](#)** | Upgrades Azure Mini SOC with Random Forest classifier on 225K+ real network flows (CICIDS 2017). Replaces static alert rules with dynamic ML threat classification via REST API feeding directly into Azure Sentinel. | Python · scikit-learn · Flask · Azure Sentinel | 🔨 In Progress |
+| 🛡️ **[ML Intrusion Detection System](#)** | Benchmarks Logistic Regression, Random Forest, and Gradient Boosting on NSL-KDD dataset. Selects best model by F1 score for deployment. | Python · scikit-learn · NSL-KDD | 📅 Upcoming |
+| 📧 **[NLP Phishing Classifier](#)** | TF-IDF + BERT pipeline that classifies phishing emails. Integrated as a Python microservice into the existing Java Email App via REST API. | Python · HuggingFace · TF-IDF · Flask | 📅 Upcoming |
+| ⚙️ **[DevSecOps AI Security Gate](#)** | Extends existing CI/CD pipeline with Garak LLM vulnerability scanning. Blocks deployments on detected prompt injection and jailbreak vulnerabilities. | Garak · GitHub Actions · Docker | 📅 Upcoming |
+| 🔐 **[Zero Trust Anomaly Detection](#)** | Adds Isolation Forest unsupervised anomaly detection to VPN access logs. Detects insider threats, off-hours logins, and data exfiltration patterns. | Python · scikit-learn · AWS | 📅 Upcoming |
+
+> Update this table as projects complete — replace `(#)` with real repo links and swap `📅 Upcoming` → `✅ Complete`
+
+---
+
 ## Tech Stack
+
+**AI & Machine Learning**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Garak](https://img.shields.io/badge/Garak-LLM_Security-8B5CF6?style=flat-square&logoColor=white)
 
 **Security & Detection**
 
@@ -57,6 +84,7 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 ![Azure Sentinel](https://img.shields.io/badge/Azure_Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Nessus](https://img.shields.io/badge/Nessus-00C176?style=flat-square&logoColor=white)
 ![Security Onion](https://img.shields.io/badge/Security_Onion-4A90D9?style=flat-square&logoColor=white)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
 
 **Cloud & Infrastructure**
 
@@ -90,6 +118,7 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 
 | Project | Description | Stack |
 |---|---|---|
+| 🤖 **[AI Threat Detection SOC](#)** | *(In Progress)* Upgrading Azure Mini SOC with Random Forest ML classifier. Replaces static Sentinel alert rules with dynamic threat classification on 225K+ real network flows. | Python · scikit-learn · Flask · Azure |
 | 🔒 **[DevSecOps CI/CD Pipeline](https://github.com/jkcudiamat/devsecops-local)** | 4-stage GitHub Actions pipeline with automated security gates. Checkov IaC scanning, Bandit SAST, Trivy CVE scanning, and offline Kubernetes manifest validation. Hardened Flask app on Minikube with Falco eBPF runtime threat detection — firing CRITICAL alerts on shell spawns and privilege escalation. | GitHub Actions · Docker · Kubernetes · Trivy · Checkov · Falco |
 | 🛡️ **Azure Mini SOC** | Cloud-based SIEM with real-time log ingestion, alert rules & automated workflows. Cut incident response time by 40%. | Azure Sentinel · Log Analytics |
 | 🔐 **Zero Trust VPN** | WireGuard VPN on AWS with MFA enforcement and network access controls following zero trust principles. | AWS · WireGuard · MFA |
@@ -117,10 +146,10 @@ Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practit
 - 📜 **CompTIA Security+** — In Progress
 - ☁️ **AWS Certified Cloud Practitioner** — In Progress
 - 🏐 **Filipino-American Nation Select Team** (2025) — competing internationally
-- U.S. Citizen
+- 🇺🇸 U.S. Citizen
 
 ---
 
 <div align="center">
-  <sub>Open to cybersecurity, software engineering, and IT roles · <a href="mailto:jacob.k.cudiamat@gmail.com">jacob.k.cudiamat@gmail.com</a></sub>
+  <sub>Open to AI/ML Engineer · AI Security Engineer · MLSecOps · Cybersecurity roles · <a href="mailto:jacob.k.cudiamat@gmail.com">jacob.k.cudiamat@gmail.com</a></sub>
 </div>
