@@ -7,12 +7,10 @@
      3. Select all, delete, paste this entire file
      4. Click "Commit changes"
      
-     EASY EDITS:
-     - As you complete AI projects, replace (#) with real repo URLs
-     - Update status emojis: 🔨 In Progress → ✅ Complete
-     - Update the "Currently..." line when you earn your certs
-     - Swap stats card theme: change ?theme=tokyonight to
-       dark, radical, merko, gruvbox, onedark
+     MAINTENANCE:
+     - Replace (#) links with real repo URLs as projects go live
+     - Swap 📅 Upcoming → 🔨 In Progress → ✅ Complete
+     - Update cert lines once earned
      ============================================================ -->
 
 <div align="center">
@@ -27,7 +25,7 @@
 
 # Jacob Cudiamat
 
-**Building AI-powered security systems · ML Threat Detection · DevSecOps · Zero Trust**
+**I build security systems. Now I'm making them smarter with ML.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jkcudiamat-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jacob-cudiamat)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jkcudiamat.github.io-5ee7c0?style=flat-square&logo=github&logoColor=black)](https://jkcudiamat.github.io)
@@ -40,27 +38,25 @@
 
 ## About
 
-Cybersecurity engineer transitioning existing security infrastructure into AI-powered systems. I work across both disciplines — building ML models that replace static alert rules with dynamic threat classification, and securing AI systems against adversarial attacks, prompt injection, and LLM vulnerabilities.
+I'm a cybersecurity engineer with a background in threat detection, cloud infrastructure, and DevSecOps. Most of my work lives at the intersection of security and engineering — building pipelines that catch real threats, not just checking boxes.
 
-Previously slashed critical vulnerabilities by **60%** at Torero Consulting Group and delivered a NIST SP 800-171 aligned security plan. Built a cloud SOC on Azure that cut incident response time by **40%**. Currently adding machine learning layers to every project in my security portfolio.
+I've cut critical vulnerabilities by **60%**, shipped a NIST SP 800-171 security plan from scratch, and built a cloud SOC that reduced incident response time by **40%**. Right now I'm focused on one thing: replacing static security rules with machine learning models that actually adapt. Every project in this repo is moving in that direction.
 
-Currently working toward **CompTIA Security+** and **AWS Certified Cloud Practitioner**.
+Working toward **CompTIA Security+** and **AWS Certified Cloud Practitioner**.
 
 ---
 
-## 🔨 Currently Building — AI/ML Portfolio Sprint
+## What I'm Building Right Now
 
-Transitioning existing security infrastructure into AI-powered systems.
+Currently upgrading my existing security projects with ML layers. Real datasets, deployed models, working APIs.
 
 | Project | What It Does | Stack | Status |
 |---------|-------------|-------|--------|
-| 🤖 **[AI Threat Detection SOC](#)** | Upgrades Azure Mini SOC with Random Forest classifier on 225K+ real network flows (CICIDS 2017). Replaces static alert rules with dynamic ML threat classification via REST API feeding directly into Azure Sentinel. | Python · scikit-learn · Flask · Azure Sentinel | 🔨 In Progress |
-| 🛡️ **[ML Intrusion Detection System](#)** | Benchmarks Logistic Regression, Random Forest, and Gradient Boosting on NSL-KDD dataset. Selects best model by F1 score for deployment. | Python · scikit-learn · NSL-KDD | 📅 Upcoming |
-| 📧 **[NLP Phishing Classifier](#)** | TF-IDF + BERT pipeline that classifies phishing emails. Integrated as a Python microservice into the existing Java Email App via REST API. | Python · HuggingFace · TF-IDF · Flask | 📅 Upcoming |
-| ⚙️ **[DevSecOps AI Security Gate](#)** | Extends existing CI/CD pipeline with Garak LLM vulnerability scanning. Blocks deployments on detected prompt injection and jailbreak vulnerabilities. | Garak · GitHub Actions · Docker | 📅 Upcoming |
-| 🔐 **[Zero Trust Anomaly Detection](#)** | Adds Isolation Forest unsupervised anomaly detection to VPN access logs. Detects insider threats, off-hours logins, and data exfiltration patterns. | Python · scikit-learn · AWS | 📅 Upcoming |
-
-> Update this table as projects complete — replace `(#)` with real repo links and swap `📅 Upcoming` → `✅ Complete`
+| 🤖 **[AI Threat Detection SOC](#)** | Swapped out the static alert rules in my Azure SOC for a Random Forest classifier trained on 225K+ real network flows. Predictions hit a REST API and feed directly into Azure Sentinel. | Python · scikit-learn · Flask · Azure Sentinel | 🔨 In Progress |
+| 🛡️ **[ML Intrusion Detection System](#)** | Running three models against each other on NSL-KDD — Logistic Regression, Random Forest, Gradient Boosting. Best F1 score wins deployment. | Python · scikit-learn · NSL-KDD | 📅 Upcoming |
+| 📧 **[NLP Phishing Classifier](#)** | TF-IDF and BERT pipeline for classifying phishing emails, wired into my existing Java Email App as a Python microservice. | Python · HuggingFace · TF-IDF · Flask | 📅 Upcoming |
+| ⚙️ **[DevSecOps AI Security Gate](#)** | Added Garak LLM scanning to my CI/CD pipeline. If the model fails a prompt injection probe, the deployment blocks. | Garak · GitHub Actions · Docker | 📅 Upcoming |
+| 🔐 **[Zero Trust Anomaly Detection](#)** | Isolation Forest running on VPN access logs to flag off-hours logins and unusual data transfer patterns. | Python · scikit-learn · AWS | 📅 Upcoming |
 
 ---
 
@@ -104,7 +100,7 @@ Transitioning existing security infrastructure into AI-powered systems.
 ![Falco](https://img.shields.io/badge/Falco-00ADEF?style=flat-square&logoColor=white)
 ![Bandit](https://img.shields.io/badge/Bandit-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**Languages & Development**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -114,20 +110,20 @@ Transitioning existing security infrastructure into AI-powered systems.
 
 ---
 
-## Featured Projects
+## Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| 🤖 **[AI Threat Detection SOC](#)** | *(In Progress)* Upgrading Azure Mini SOC with Random Forest ML classifier. Replaces static Sentinel alert rules with dynamic threat classification on 225K+ real network flows. | Python · scikit-learn · Flask · Azure |
-| 🔒 **[DevSecOps CI/CD Pipeline](https://github.com/jkcudiamat/devsecops-local)** | 4-stage GitHub Actions pipeline with automated security gates. Checkov IaC scanning, Bandit SAST, Trivy CVE scanning, and offline Kubernetes manifest validation. Hardened Flask app on Minikube with Falco eBPF runtime threat detection — firing CRITICAL alerts on shell spawns and privilege escalation. | GitHub Actions · Docker · Kubernetes · Trivy · Checkov · Falco |
-| 🛡️ **Azure Mini SOC** | Cloud-based SIEM with real-time log ingestion, alert rules & automated workflows. Cut incident response time by 40%. | Azure Sentinel · Log Analytics |
-| 🔐 **Zero Trust VPN** | WireGuard VPN on AWS with MFA enforcement and network access controls following zero trust principles. | AWS · WireGuard · MFA |
-| 🔍 **Offensive Security Lab** | Vulnerability testing on Linux systems. Identified and documented 20+ vulnerabilities with remediation strategies. | Nmap · Wireshark · Security Onion |
-| ✉️ **Java Email Client-Server** | Multithreaded client-server app with Java sockets, MySQL backend, GUI, and secure authentication. | Java · MySQL · Multithreading |
+| 🤖 **[AI Threat Detection SOC](#)** | ML upgrade to my Azure SOC — Random Forest classifier replacing static alert rules on real network traffic data. | Python · scikit-learn · Flask · Azure |
+| 🔒 **[DevSecOps CI/CD Pipeline](https://github.com/jkcudiamat/devsecops-local)** | 4-stage security pipeline — Checkov for IaC, Bandit for SAST, Trivy for CVEs, and Kubernetes manifest validation. Falco eBPF catches runtime threats like shell spawns and privilege escalation. | GitHub Actions · Docker · Kubernetes · Falco |
+| 🛡️ **Azure Mini SOC** | Cloud SIEM with real-time log ingestion and automated alert workflows. Cut response time by 40%. | Azure Sentinel · Log Analytics |
+| 🔐 **Zero Trust VPN** | WireGuard on AWS with MFA and network access controls. Built around zero trust principles. | AWS · WireGuard · MFA |
+| 🔍 **Offensive Security Lab** | Vulnerability testing on Linux — found and documented 20+ issues with remediation steps. | Nmap · Wireshark · Security Onion |
+| ✉️ **Java Email Client-Server** | Multithreaded client-server system with socket communication, MySQL backend, and a working GUI. | Java · MySQL · Sockets |
 
 ---
 
-## GitHub Stats
+## Stats
 
 <div align="center">
 
@@ -145,11 +141,10 @@ Transitioning existing security infrastructure into AI-powered systems.
 - 🎓 **B.S. Computer Science**, Minor in Business Admin — Cal Lutheran, 3.7 GPA, Magna Cum Laude (2023)
 - 📜 **CompTIA Security+** — In Progress
 - ☁️ **AWS Certified Cloud Practitioner** — In Progress
-- 🏐 **Filipino-American Nation Select Team** (2025) — competing internationally
-- 🇺🇸 U.S. Citizen
+- 🇺🇸 U.S. Citizen · Los Angeles, CA
 
 ---
 
 <div align="center">
-  <sub>Open to AI/ML Engineer · AI Security Engineer · MLSecOps · Cybersecurity roles · <a href="mailto:jacob.k.cudiamat@gmail.com">jacob.k.cudiamat@gmail.com</a></sub>
+  <sub>Looking for AI/ML Engineer · AI Security Engineer · MLSecOps · Cybersecurity roles · <a href="mailto:jacob.k.cudiamat@gmail.com">jacob.k.cudiamat@gmail.com</a></sub>
 </div>
